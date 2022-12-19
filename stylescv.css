@@ -22,7 +22,6 @@
       "header"
       "content";
   }
-  ement les lignes de la grille :
 
 .header{
   grid-area: header;
@@ -31,6 +30,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.header-content{
+  list-style:none;
 }
 .content{
   grid-area: content;
@@ -43,7 +45,8 @@
     color: #002060;
   }
   .text-uppercase{
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    
   }
   .section{
     margin-bottom: 1.5rem;
